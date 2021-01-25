@@ -26,4 +26,7 @@ upDateTime()
 $("#currentDay").text(moment().format('MMMM Do YYYY'))
 
 $("#9 .description").val(localStorage.getItem("9"))
-
+$("#10 .description").val(localStorage.getItem("10"))
+$("#11 .description").val(localStorage.getItem("11"))
+$("#12 .description").val(localStorage.getItem("12"))
+$("#1 .description").val(localStorage.getItem("1"))
