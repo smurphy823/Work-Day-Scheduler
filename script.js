@@ -11,12 +11,15 @@ function upDateTime(){
         var blockId = $(this).attr("id")
         if(blockId < currentTime){
             $(this).addClass("past")
+           
         }
         else if(blockId > currentTime){
-            $(this).addClass("future")
+           $(this).addClass("future")
+          
         }
         else{
             $(this).addClass("present")
+
         }
     })
 }
